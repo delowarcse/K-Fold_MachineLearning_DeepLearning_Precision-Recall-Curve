@@ -25,8 +25,7 @@ The tuned hyperparameters of the random forest model were: the number of trees i
 I implemented a Support Vector Machine (SVM) classifier. It constructed a set of hyperplanes (hyperplanes are decision boundaries that help to classify the data points) in high-dimensional space to perform the classification task. The model transformed the data to find an optimal boundary between outputs (control or stroke). A good separation is achieved by the hyperplane that had the largest distance, or functional margin, to the nearest training data point of any class.
 
 # K-Nearest Neighbors (K-NN/KNN)
-The K-nearest neighbors (K-NN/KNN) classifier (also known as nearest neighbors) is a non-parametric classification method. This method predicts the correct class for the test data by calculating the distance between the test data and all the training data points. Then, it selects the K number of data points that are closest to the test data. The K-NN algorithm calculates the probability of the test data belonging to the K training data classes. The class with the highest probability value is then selected to classify the data point either in “without a previous history of concussion” or “with a previous history of concussion”. ![image](https://user-images.githubusercontent.com/15137793/179091536-638442fe-83c4-46fe-8216-2268e2831425.png)
-
+The k-nearest neighbors algorithm, also known as KNN or k-NN, is a non-parametric, supervised learning classifier, which uses proximity to make classifications or predictions about the grouping of an individual data point.
 
 # Deep Neural Network (DNN)
 I also implemented a Deep Learning technique, namely, Deep Neural Network (DNN). It is a part of a broader family of machine learning techniques based on artificial neural networks.
